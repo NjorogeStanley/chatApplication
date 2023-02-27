@@ -1,0 +1,112 @@
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 90%;
+}
+header{
+    width: 100%;
+    background: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header div{
+    width: 80%;
+    margin: 1% !important;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+header div input{
+    width: 80%;
+    height: 90%;
+    margin-left: 15px;
+}
+header div button{
+    width: max-content;
+    height: max-content;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 15px;
+
+}
+main{
+   width: 100%;
+   height: 70%;
+   background: yellowgreen;
+   overflow-y: scroll;
+
+}
+main>div{
+    width: 100%;
+    height: max-content;
+    display: flex;
+
+}
+main>div>div{
+    margin: 5px;
+    width: 50%;
+    height: 100px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-wrap: anywhere;
+     
+}
+main>div.my-msg{
+    justify-content: flex-start;
+}
+main>div.friend-msg{
+    justify-content: flex-end;
+}
+main>div>div>div.title{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    padding: 5px;
+    background: white;
+    
+}
+main>div>div>div.content-msg{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    padding: 5px;
+    background: rgb(0, 242, 255);
+    
+}
+main>div.friend-msg>div>div{
+    justify-content: right;
+}
+footer{
+    width: 100%;
+    height: 10%;
+    background: goldenrod;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+footer textarea{
+    width: 75%;
+    height: 80%;
+    padding: 5px;
+    font: normal;
+    resize: none;
+}
+fotter button{
+    width: 5%;
+    height: 90%;
+    margin-left: 10px;
+    font: bold 12pt tohama;
+    cursor: pointer;
+
+}  

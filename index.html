@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width.initial-scale=1.0">
+        <title>CHAT APPLICATION</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="c1">
+                    <label>My-ID</label>
+                    <input disabled type="text" id="my-id" class="myID">
+
+                </div>
+                <div class="c2">
+                    <label>Connection-ID</label>
+                    <input type="text" id="f-id" class="fID">
+                    <button id="conn">Connect</button>
+                </div>
+            </header>
+            <main>
+                
+                <div id="main"></div>
+            </main>
+            <footer>
+                <textarea id="msg"></textarea>
+                <button id="send">SEND</button> 
+            </footer>
+        </div>
+    </body>
+        <script src="https://unpkg.com/peerjs@1.4.7/dist/peerjs.min.js"></script>
+        <script src="index.js"></script>
+</html>
